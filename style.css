@@ -1,0 +1,51 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.card {
+	width: 50px;
+	height: 100px;
+	margin: 20px 20px;
+}
+.card_befor {
+	width: 50px;
+	height: 100px;
+	margin: 20px 20px;
+}
+
+.card:hover {
+	cursor: pointer;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.inner_balance {
+	display: flex;
+	position: absolute;
+	right: 0;
+}
+
+.inner_score {
+	display: flex;
+	position: absolute;
+	right: 0;
+	top: 20px;
+}
+
+.container_replay {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.replay {
+	position: absolute;
+	bottom: 200px;
+}
